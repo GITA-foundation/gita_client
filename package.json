@@ -1,0 +1,34 @@
+{
+  "name": "gita_client",
+  "version": "0.1.0",
+  "author": "EXMA-Square Corp. <we@exma-square.co>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/font-awesome": "1.0.3",
+    "@nuxtjs/moment": "^1.0.0",
+    "axios": "0.18.0",
+    "bootstrap-vue": "2.0.0-rc.11",
+    "js-cookie": "2.2.0",
+    "nuxt": "^2.2.0",
+    "vuex": "3.0.1",
+    "vuex-persistedstate": "2.5.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "10.0.1",
+    "eslint": "5.8.0",
+    "eslint-friendly-formatter": "4.0.1",
+    "eslint-loader": "2.1.1",
+    "eslint-plugin-vue": "4.7.1",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.23.1"
+  }
+}
